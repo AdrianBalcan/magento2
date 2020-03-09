@@ -1,0 +1,9 @@
+install/
+.idea/
+magento/var
+.DS_Store
+#local-ssl/server.key
+#local-ssl/server.crt
+devcert/node_modules
+devcert/yarn.lock
+magento/var/*

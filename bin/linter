@@ -1,0 +1,19 @@
+#!/bin/bash
+
+bin/shell "./vendor/bin/phpcs --standard=./ruleset_cs.xml app/code/AtuTech"
+
+t1=$?
+if [ "$t1" = "0" ]; then
+    echo "PHPCS PSR2 Passed"
+else
+    exit 1;
+fi
+
+bin/shell "./vendor/bin/phpcs --standard=/var/www/html/vendor/magento-ecg/coding-standard/EcgM2 app/code/AtuTech"
+
+t1=$?
+if [ "$t1" = "0" ]; then
+    echo "PHPCS ECG Magento Standards Passed"
+else
+    exit 1;
+fi

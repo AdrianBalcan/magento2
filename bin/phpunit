@@ -1,0 +1,16 @@
+#!/bin/bash
+MYARGS=$(echo $@)
+umask 002
+
+if [[ "$MYARGS" == "" ]]; then
+    bin/shell "./vendor/bin/phpunit -c ./dev/tests/unit/phpunit.xml app/code/"
+else
+    bin/shell "./vendor/bin/phpunit -c ./dev/tests/unit/phpunit.xml $MYARGS"
+fi
+
+t1=$?
+if [ "$t1" == "0" ]; then
+    echo "Unit Tests Passed"
+else
+    exit 1;
+fi

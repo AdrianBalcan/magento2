@@ -1,0 +1,3 @@
+#!/bin/bash -e
+MYARGS=$(echo $@)
+bin/shell "bin/magento $MYARGS"

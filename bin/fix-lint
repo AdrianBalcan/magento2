@@ -1,0 +1,11 @@
+#!/bin/bash
+MYARGS=$(echo $@)
+umask 002
+
+if [[ "$MYARGS" == "" ]]; then
+    bin/shell "vendor/bin/phpcbf --standard=./ruleset_cs.xml app/code/ATuTech"
+else
+    bin/shell "vendor/bin/phpcbf --standard=./ruleset_cs.xml $MYARGS"
+fi
+
+bin/linter

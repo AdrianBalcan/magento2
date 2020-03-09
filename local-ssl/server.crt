@@ -1,0 +1,86 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 1 (0x1)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: CN=devcert
+        Validity
+            Not Before: Dec  5 20:21:59 2019 GMT
+            Not After : Feb  3 20:21:59 2039 GMT
+        Subject: CN=magento2.local
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:b5:c0:3b:a0:58:1e:a2:1d:b2:82:80:3f:a6:c7:
+                    17:aa:3e:41:5d:19:ce:83:c2:be:29:5d:85:5b:10:
+                    45:d4:50:a0:2d:b8:36:cf:a8:c5:bb:3b:0b:b3:bb:
+                    24:40:47:35:1c:45:e2:f4:6b:3c:5b:98:b9:f5:b5:
+                    46:e0:65:d8:0f:99:5a:a4:02:36:c0:59:5a:89:75:
+                    36:0a:2b:f2:6e:3a:e4:59:c0:03:34:91:6b:0f:cb:
+                    8f:5a:0b:0a:32:37:50:af:c8:8f:c9:81:66:96:72:
+                    f8:0d:e4:bd:3a:c5:26:a1:af:a4:7e:a8:c2:06:57:
+                    60:c6:0e:7f:37:0d:15:2a:f8:9b:81:63:93:2e:e4:
+                    ad:16:6b:d9:11:98:d0:12:ae:ef:5c:68:b1:97:1b:
+                    c1:3f:20:6c:64:c8:17:3c:ed:d9:25:e7:c0:af:5e:
+                    97:14:0c:c2:f3:63:7f:c2:3f:8a:e6:90:07:56:59:
+                    7e:b4:ba:d4:61:ba:1a:fb:32:08:a2:a5:c8:c0:a5:
+                    94:45:e1:9a:d1:b7:07:ed:62:a9:20:d8:91:ab:92:
+                    bf:54:fd:db:62:5c:ea:e3:d5:d6:2d:1f:b5:31:2a:
+                    7c:16:84:d9:64:4b:92:5d:19:11:81:31:5d:ec:19:
+                    42:a3:d0:e4:0d:ec:ff:05:49:4b:2c:ad:8f:71:94:
+                    68:7f
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                80:EB:69:D2:68:B5:D7:12:44:7B:9D:68:A7:B5:1D:0E:7A:65:51:CE
+            X509v3 Authority Key Identifier: 
+                keyid:C9:03:D0:EA:F4:9E:74:A3:62:0B:CF:4A:86:49:F7:FF:3E:3C:36:E2
+                DirName:/CN=devcert
+                serial:BD:A8:BC:8F:89:22:DA:87
+
+            X509v3 Key Usage: critical
+                Digital Signature, Key Encipherment
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+            X509v3 Subject Alternative Name: 
+                DNS:*.magento2.local, DNS:magento2.local
+    Signature Algorithm: sha256WithRSAEncryption
+         78:a7:1d:b9:fc:0e:05:8b:22:8e:87:6f:c3:ff:93:58:64:f9:
+         5f:6b:3c:0d:17:a4:5d:51:f7:b9:92:4d:c2:6f:5a:59:cf:cb:
+         da:43:60:2f:d5:3c:f0:78:3c:38:85:e7:96:6e:b2:8f:84:53:
+         a1:1d:3f:c3:a3:31:37:7d:44:4a:18:64:d7:26:aa:6e:cd:37:
+         63:d9:e1:9b:59:bc:66:88:cf:89:46:cf:94:33:df:1e:7c:1b:
+         7a:a0:a7:f5:08:5d:f4:73:b7:23:38:d5:d9:2f:d6:52:af:d6:
+         f7:a4:f1:b5:67:eb:a6:10:72:59:21:95:45:64:b2:be:cc:9d:
+         2c:67:b9:f4:0a:27:a8:6c:34:74:37:f9:b9:3e:14:87:b2:a9:
+         26:ae:05:f5:28:d3:ce:da:aa:0f:c2:34:6d:e6:cc:88:f8:24:
+         a4:1b:98:76:92:38:c9:3e:37:6a:ad:d0:a9:e4:f2:04:2a:df:
+         30:e7:ae:87:b5:ad:d4:f5:ba:8b:57:d8:02:79:c3:e5:fe:ae:
+         c1:35:cd:60:44:08:dd:e9:00:d6:79:18:1a:91:e8:ca:91:fc:
+         4f:04:21:96:e2:1e:d0:08:d9:35:6f:7b:70:b7:e6:68:16:fa:
+         cb:b5:82:fd:1d:eb:d0:f0:77:3c:c3:ea:63:6b:42:0a:a6:28:
+         2d:5f:37:11
+-----BEGIN CERTIFICATE-----
+MIIDbTCCAlWgAwIBAgIBATANBgkqhkiG9w0BAQsFADASMRAwDgYDVQQDDAdkZXZj
+ZXJ0MB4XDTE5MTIwNTIwMjE1OVoXDTM5MDIwMzIwMjE1OVowGTEXMBUGA1UEAwwO
+bWFnZW50bzIubG9jYWwwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC1
+wDugWB6iHbKCgD+mxxeqPkFdGc6Dwr4pXYVbEEXUUKAtuDbPqMW7OwuzuyRARzUc
+ReL0azxbmLn1tUbgZdgPmVqkAjbAWVqJdTYKK/JuOuRZwAM0kWsPy49aCwoyN1Cv
+yI/JgWaWcvgN5L06xSahr6R+qMIGV2DGDn83DRUq+JuBY5Mu5K0Wa9kRmNASru9c
+aLGXG8E/IGxkyBc87dkl58CvXpcUDMLzY3/CP4rmkAdWWX60utRhuhr7MgiipcjA
+pZRF4ZrRtwftYqkg2JGrkr9U/dtiXOrj1dYtH7UxKnwWhNlkS5JdGRGBMV3sGUKj
+0OQN7P8FSUssrY9xlGh/AgMBAAGjgcYwgcMwDAYDVR0TAQH/BAIwADAdBgNVHQ4E
+FgQUgOtp0mi11xJEe51op7UdDnplUc4wQgYDVR0jBDswOYAUyQPQ6vSedKNiC89K
+hkn3/z48NuKhFqQUMBIxEDAOBgNVBAMMB2RldmNlcnSCCQC9qLyPiSLahzAOBgNV
+HQ8BAf8EBAMCBaAwEwYDVR0lBAwwCgYIKwYBBQUHAwEwKwYDVR0RBCQwIoIQKi5t
+YWdlbnRvMi5sb2NhbIIObWFnZW50bzIubG9jYWwwDQYJKoZIhvcNAQELBQADggEB
+AHinHbn8DgWLIo6Hb8P/k1hk+V9rPA0XpF1R97mSTcJvWlnPy9pDYC/VPPB4PDiF
+55Zuso+EU6EdP8OjMTd9REoYZNcmqm7NN2PZ4ZtZvGaIz4lGz5Qz3x58G3qgp/UI
+XfRztyM41dkv1lKv1vek8bVn66YQclkhlUVksr7MnSxnufQKJ6hsNHQ3+bk+FIey
+qSauBfUo087aqg/CNG3mzIj4JKQbmHaSOMk+N2qt0Knk8gQq3zDnroe1rdT1uotX
+2AJ5w+X+rsE1zWBECN3pANZ5GBqR6MqR/E8EIZbiHtAI2TVve3C35mgW+su1gv0d
+69DwdzzD6mNrQgqmKC1fNxE=
+-----END CERTIFICATE-----

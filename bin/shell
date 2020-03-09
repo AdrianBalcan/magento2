@@ -1,0 +1,17 @@
+#!/bin/bash -e
+MYARGS=$(echo $@)
+umask 002
+
+if [[ "$MYARGS" == "" ]]; then
+    if [ -d "../local-zento" ]; then
+        cd ../local-zento
+    fi
+
+    docker-compose exec php sh -c
+else
+    if [ -d "../local-zento" ]; then
+        cd ../local-zento
+    fi
+
+    docker-compose exec php sh -c "$MYARGS"
+fi
