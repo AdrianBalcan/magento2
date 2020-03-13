@@ -19,7 +19,8 @@ If you make changes in the Docker files, please run as: `./run.sh --build`
 
 ## Development
 
-In order to develop new functions on Magento2, you can create modules in `magento/app/code` which is mapped to `/var/www/html/app/code` inside of the container. Logs an errors can be found in `magento/var` which is mapped to `/var/www/html/var/` in the container.
+1. In order to develop new functions on Magento2, you can create modules in `magento/app/code` which is mapped to `/var/www/html/app/code` inside of the container. Logs an errors can be found in `magento/var` which is mapped to `/var/www/html/var/` in the container.
+2. Run `./exec.sh` to ssh into the php container, where you can run `php bin/magento` or `composer` commands.
 
 ## Reset the project
 
